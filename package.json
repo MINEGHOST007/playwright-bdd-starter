@@ -1,0 +1,27 @@
+{
+  "name": "playwright-bdd-starter",
+  "version": "1.0.0",
+  "description": "Starter template for BDD testing with Playwright using playwright-bdd",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test",
+    "test:generate": "npx bddgen",
+    "test:ui": "npx bddgen && npx playwright test --ui",
+    "test:headed": "npx bddgen && npx playwright test --headed",
+    "test:debug": "npx bddgen && npx playwright test --debug",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^25.3.5",
+    "playwright-bdd": "^8.4.0"
+  },
+  "keywords": [
+    "playwright",
+    "bdd",
+    "cucumber",
+    "gherkin",
+    "testing",
+    "e2e"
+  ],
+  "license": "MIT"
+}
