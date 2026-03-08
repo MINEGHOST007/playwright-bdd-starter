@@ -11,9 +11,9 @@
     "test:report": "npx playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.49.0",
-    "@types/node": "^25.3.5",
-    "playwright-bdd": "^8.4.0"
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3",
+    "playwright-bdd": "^8.4.1"
   },
   "keywords": [
     "playwright",
